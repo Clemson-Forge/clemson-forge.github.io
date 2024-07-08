@@ -32,5 +32,5 @@ type: standalone
 
 **Email us at <contact@clemsonforge.org>**.
 
-<p class="mb-1">Also connect with us by:</p>
+<h5 class="mb-1">Our Socials</h5>
 {{< social-list >}}

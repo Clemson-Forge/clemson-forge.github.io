@@ -6,12 +6,12 @@ type: slides
 ---
 
 
-# This is the first slide
+# Meeting 3/2/2021
 
-Example content!
+How to make it in tech?
 
 ---
 
-# This is the second slide
+# Propositions
 
-Example content!
+Alright so step one, obama.

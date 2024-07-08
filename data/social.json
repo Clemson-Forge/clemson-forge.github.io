@@ -1,32 +1,34 @@
 {
   "main": [
-    {
-      "name": "TigerQuest",
-      "icon": "fa-solid fa-paw",
-      "link": "https://twitter.com/",
-      "action": "Joining our",
-      "page": "organization"
-    },
+   
     {
       "name": "LinkedIn",
       "icon": "fab fa-linkedin",
       "link": "https://www.linkedin.com/company/104491844",
-      "action": "Following us on",
+      "action": "Follow us on",
       "page": null
     },
     {
       "name": "Discord",
       "icon": "fab fa-discord",
       "link": "https://discord.gg/CmJbJKhNk5",
-      "action": "Joining our",
+      "action": "Join our",
       "page": "server"
     },
     {
       "name": "GitHub",
       "icon": "fab fa-github",
       "link": "https://github.com/clemson-forge",
-      "action": "Checking out our",
+      "action": "Check out our ",
       "page": null
+    },
+
+    {
+      "name": "TigerQuest",
+      "icon": "fa-solid fa-paw",
+      "link": "",
+      "action": "Coming soon, our",
+      "page": "organization"
     }
   ]
 }
