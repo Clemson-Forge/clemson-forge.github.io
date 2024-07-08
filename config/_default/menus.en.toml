@@ -1,0 +1,36 @@
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "About"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 3
+
+[[main]]
+name = "Resources"
+weight = 4
+
+[[main]]
+parent = "Resources"
+name = "Quick Links"
+pageRef = "/links"
+weight = 1
+
+[[main]]
+parent = "Resources"
+name = "Slides"
+pageRef = "/slides"
+weight = 2
+
+[[main]]
+parent = "Resources"
+name = "Posts & Minutes"
+pageRef = "/posts"
+weight = 3

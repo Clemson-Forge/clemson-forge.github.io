@@ -1,0 +1,32 @@
+{
+  "main": [
+    {
+      "name": "TigerQuest",
+      "icon": "fa-solid fa-paw",
+      "link": "https://twitter.com/",
+      "action": "joining our",
+      "page": "organization"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/104491844",
+      "action": "following us on",
+      "page": null
+    },
+    {
+      "name": "Discord",
+      "icon": "fab fa-discord",
+      "link": "https://discord.gg",
+      "action": "joining our",
+      "page": "server"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "link": "https://github.com/clemson-forge",
+      "action": "checking out our",
+      "page": null
+    }
+  ]
+}

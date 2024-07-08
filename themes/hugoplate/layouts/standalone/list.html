@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="md:col-10 lg:col-7 text-center">
+        {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size"
+        "200x200") }}
+        <h1 class="h1 mb-6">{{ .Title }}</h2>
+        <div class="content">{{ .Content }}</div>
+      </div>
+
+      {{ if .Params.items }}
+      <div class="md:col-10 lg:col-7">
+        <h2 class="text-center h2 mb-6">{{ .Params.items.title | markdownify }}</h3>
+        <div class="flex gap-2 justify-center">
+          {{ range .Params.items.item_list }}
+          <div class="text-center">
+            {{ partial "image" (dict "Src" .image "Alt" .title "Class" "mx-auto mb-6" "Size" "200x200") }}
+            <h3 class="h4">{{ .title | markdownify }}</h4>
+            <div>{{ .content | markdownify }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
