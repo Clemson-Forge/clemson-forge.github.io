@@ -1,6 +1,17 @@
-<html>
+<!doctype html>
+<html
+  itemscope
+  class="{{- if not site.Params.theme_switcher -}}
+    {{- site.Params.theme_default -}}
+  {{- end -}}"
+  lang="{{ site.LanguageCode | default `en-US` }}"
+  itemtype="http://schema.org/WebPage">
 
 <head>
+  <!-- head (don't cache it) -->
+  {{ partial "essentials/head.html" . }}
+
+  <!-- reveal.js css styles -->
   {{ $main := resources.Get "plugins/reveal.js/reveal.css" }}
   {{ $theme := resources.Get "plugins/reveal.js/theme.scss" | resources.ToCSS }}
   {{ $styles := slice $main $theme | resources.Concat "plugins/revealjs/full-reveal.css" | resources.PostCSS }}
@@ -31,10 +42,10 @@
           <!-- Only wrap in <section> tag if not already wrapped by shortcode -->
           {{- if not (in . "data-noprocess") -}}
             <section>
-                      {{- end -}}
+          {{- end -}}
               {{- . | safeHTML -}}
             </section>
-          {{- end -}}
+        {{- end -}}
       {{- end -}}
     </div>
   </div>
