@@ -45,7 +45,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        "gradient-move": "gradient-move 20s  infinite cubic-bezier(1, 0.89, 0.74, 1)",
+        "gradient-move": "gradient-move 20s infinite cubic-bezier(1, 0.89, 0.74, 1)",
       },
       keyframes: {
         "gradient-move": {
@@ -54,10 +54,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        // "gradient-body": `${theme.colors.gradient.light}`,
-        // "gradient-body-dark": `${theme.colors.gradient.dark}`,
-        "gradient-body": `linear-gradient(45deg, ${theme.colors.default.theme_color.body}, ${theme.colors.default.theme_color.primary}1c, ${theme.colors.default.text_color.dark}2c, ${theme.colors.default.theme_color.body}, ${theme.colors.default.theme_color.primary}1c)`,
-        "gradient-body-dark": `linear-gradient(45deg, ${theme.colors.darkmode.theme_color.body}, ${theme.colors.darkmode.theme_color.primary}1c, ${theme.colors.darkmode.text_color.dark}1c, ${theme.colors.darkmode.theme_color.body}, ${theme.colors.darkmode.theme_color.primary}1c)`,
+        "gradient-body": theme.colors.gradient.default,
+        "gradient-body-dark": theme.colors.gradient.darkmode,
       },
       backgroundSize: {
         "400-400": "400% 400%",

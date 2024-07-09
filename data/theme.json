@@ -29,9 +29,8 @@
       }
     },
     "gradient": {
-      "light": "linear-gradient(45deg, rgba(60,10,69,1) 0%, rgba(88,11,110,1) 30%, rgba(255,140,0,1) 100%)",
-      "dark": "linear-gradient(45deg, rgba(65,0,78,1) 0%, rgba(81,0,143,1) 35%, rgba(143,78,0,1) 100%)",
-      "dark2": "linear-gradient(45deg, rgba(60,10,69,1) 0%, rgba(60,10,69,1) 20%, rgba(88,11,110,1) 30%, rgba(143,78,0,1) 50%, rgba(88,11,110,1) 70%, rgba(60,10,69,1) 80%, rgba(60,10,69,1) 100%)"
+      "default": "linear-gradient(45deg, #fff, #4a2f6b1c, #db7e002c, #fff, #4a2f6b1c)",
+      "darkmode": "linear-gradient(45deg, #1c1c1c, #b070ff1c, #ffce8a1c, #1c1c1c, #b070ff1c)"
     }
   },
   "fonts": {
