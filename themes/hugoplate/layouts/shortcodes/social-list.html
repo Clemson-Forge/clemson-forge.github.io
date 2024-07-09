@@ -1,9 +1,9 @@
 {{ $links := site.Data.social.main }}
 <ul class="list-none mt-0">
-  {{ range $index, $item := $links }}
+  {{ range $links }}
   <li class="my-0.5">
-    <strong>{{ $item.action }}</strong>
-    <a target="_blank" rel="nofollow noopener" href="{{ $item.link | safeURL }}">{{ $item.name }}{{if $item.page }} {{ $item.page }}{{ end }}</a> <i class="{{ $item.icon }}"></i> {{ if lt $index (sub (len $links) 2) }}, {{ else if eq $index (sub (len $links) 2) }}, and{{ else }}!{{ end }}
+    <strong>{{ .action }}</strong>
+    <a target="_blank" rel="nofollow noopener" {{ if .link }}href="{{ .link | safeURL }}"{{ end }}>{{ .name }}{{if .page }} {{ .page }}{{ end }}</a> <i class="{{ .icon }}"></i>.
   </li>
   {{ end }}
 </ul>

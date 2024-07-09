@@ -9,5 +9,5 @@ type: standalone
 
 **Email us at <contact@clemsonforge.org>**.
 
-<h5 class="mb-1">Our Socials</h5>
+### Our Socials
 {{< social-list >}}
