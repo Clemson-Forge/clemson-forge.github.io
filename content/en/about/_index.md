@@ -21,12 +21,13 @@ items:
     - title: Janvi Patel
       content: Secretary
       image: /images/avatar.png
-    # - title: Owen Merwarth
-    #   content: Mentor
-    #   image: /images/avatar.png
-    # - title: Zaid Bourini
-    #   content: Mentor
-    #   image: /images/zbourini.jpeg
+    - title: Owen Merwarth
+      content: Mentor
+      image: /images/avatar.png
+    - title: Zaid Bourini
+      content: Mentor
+      image: /images/headshots/zbourini.jpeg
+
 ---
 
 Our mission is to help bridge the gap between academic coursework and real-world applications by providing CS students with opportunities outside of their curriculum.

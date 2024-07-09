@@ -21,15 +21,6 @@
       "link": "https://github.com/clemson-forge",
       "action": "Check out our ",
       "page": null
-    },
-
-    {
-      "name": "TigerQuest",
-      "icon": "fa-solid fa-paw",
-      "link": "",
-      "action": "Coming soon, our",
-      "page": "organization"
     }
-
   ]
 }
