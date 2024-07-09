@@ -14,7 +14,7 @@ author: "Emma Abraham"
 
 - [CS Majors ](https://whatcanidowiththismajor.com/)The following link is a resource to help you see all the different career paths available for your major.  
 
-- [LinkedIn Profile Best Practices](https://www.linkedin.com/business/sales/blog/profile-best-practices/17-steps-to-a-better-linkedin-profile-in-2017)
+- [LinkedIn Profile Best Practices](https://www.linkedin.com/business/sales/blog/profile-best-practices/17-steps-to-a-better-linkedin-profile-in-2017)The following link is a resource to help you improve your LinkedIn profile.
 
 ### University Resources
 
