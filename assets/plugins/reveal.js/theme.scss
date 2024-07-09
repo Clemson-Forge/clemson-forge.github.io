@@ -1,6 +1,6 @@
 // defaults theme sheets
-@import "../../../../../node_modules/reveal.js/css/theme/template/mixins";
-@import "../../../../../node_modules/reveal.js/css/theme/template/settings";
+@import "../../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../../node_modules/reveal.js/css/theme/template/settings";
 
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
@@ -32,4 +32,4 @@ $overlayElementFgColor: 240, 240, 240;
 @include dark-bg-text-color(#fff);
 
 // theme template
-@import "../../../../../node_modules/reveal.js/css/theme/template/theme";
+@import "../../../node_modules/reveal.js/css/theme/template/theme";
