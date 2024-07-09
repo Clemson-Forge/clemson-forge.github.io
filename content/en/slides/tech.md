@@ -15,3 +15,11 @@ How to make it in tech?
 # Propositions
 
 Alright so step one, obama.
+
+---
+
+# Slide 3
+
+---
+
+# Slide 4
