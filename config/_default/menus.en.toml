@@ -23,11 +23,12 @@ name = "Quick Links"
 pageRef = "/links"
 weight = 1
 
-[[main]]
-parent = "Resources"
-name = "Slides"
-pageRef = "/slides"
-weight = 2
+# Removed slides as implementing slides are not friendly
+# [[main]] 
+# parent = "Resources"
+# name = "Slides"
+# pageRef = "/slides"
+# weight = 2
 
 [[main]]
 parent = "Resources"
